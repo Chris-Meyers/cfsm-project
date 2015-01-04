@@ -1,0 +1,5 @@
+#  gram_abc.txt - Simple for LR0
+
+S ::= A $
+A ::= a b c
+

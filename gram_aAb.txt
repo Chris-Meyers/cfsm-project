@@ -1,0 +1,7 @@
+# gram_aAb.txt - generates shift/reduce conflict w LR0
+
+S ::= A $
+S ::= x b $
+A ::= a A b
+A ::= B
+B ::= x

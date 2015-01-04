@@ -1,0 +1,7 @@
+# gram_nulls.txt
+
+  S ::= L $
+  L ::= L ; M
+  L ::= M
+  M ::= M , i
+  M ::=
